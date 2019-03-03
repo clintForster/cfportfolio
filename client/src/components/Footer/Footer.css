@@ -29,6 +29,7 @@
     width: 100%;
     position: relative;
     z-index: 20;
+    padding-top: 5%;
 }
 
 #fFont {
@@ -43,7 +44,6 @@
     font-weight: bold;
     position: relative;
     z-index: 30;
-    top: 80px;
     font-size: .9em;
     margin: 0;
 }
