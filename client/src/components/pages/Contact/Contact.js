@@ -68,7 +68,7 @@ class Contact extends Component {
                         <div className="col-md module-border-wrap3">
                             <div className="module">
                                 <p id="contactButtonP" >Checkout my photography on Instagram!</p>
-                                <div className="buttonDiv">
+                                <div id="instagramBtn" className="buttonDiv">
                                     <AwesomeButtonSocial
                                         size="medium"
                                         type="primary"
@@ -84,7 +84,7 @@ class Contact extends Component {
                         <div className="col-md module-border-wrap4">
                             <div className="module">
                                 <p id="contactButtonP" >Feel free to email me with any comments or questions!</p>
-                                <div className="buttonDiv">
+                                <div id="emailBtn" className="buttonDiv">
                                     <AwesomeButton
                                         size="medium"
                                         type="primary"

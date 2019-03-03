@@ -6,6 +6,14 @@
     margin: auto 50px;
 }
 
+#instagramBtn {
+  top: 125px;
+}
+
+#emailBtn {
+  top: 108px;
+}
+
 #contactButtonP {
   padding-top: 60px;
   margin: 0 auto;
@@ -79,7 +87,7 @@
 
   .buttonDiv {
     position: relative;
-    top: 235px;
+    top: 140px;
     transition: all 0.7 ease-in-out;
   }
 
