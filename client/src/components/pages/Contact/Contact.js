@@ -50,13 +50,13 @@ class Contact extends Component {
 
                         <div className="col-md module-border-wrap2">
                             <div className="module">
-                                <p id="contactButtonP" >Take a copy of my résumé!</p>
+                                <p id="contactButtonP" >Take a copy of my resume!</p>
                                 <div className="buttonDiv" >
                                     <AwesomeButton
                                         size="medium"
                                         type="primary"
                                         ripple="true"
-                                        download="Resume.pdf"
+                                        href="https://drive.google.com/file/d/0B43RAQg8JkEFOE4teWx6WF9vM3ZjLXAzcks5LUJobGFpYklj/view?usp=sharing"
                                         cssModule={AwesomeButtonStyles}
                                     >Resume</AwesomeButton>
                                 </div>
@@ -89,7 +89,6 @@ class Contact extends Component {
                                         size="medium"
                                         type="primary"
                                         ripple="true"
-                                        download="Resume.pdf"
                                         cssModule={AwesomeButtonStyles}
                                     >E-mail</AwesomeButton>
                                 </div>
