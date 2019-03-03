@@ -35,6 +35,7 @@ class Portfolio extends Component {
                         </p>
                                 <div className="portButton">
                                     <AwesomeButtonSocial
+                                        target="_blank"
                                         type="github"
                                         cssModule={AwesomeButtonStyles}
                                         ripple="true"

@@ -6,7 +6,7 @@
 .contain {
     width: 100%;
     perspective: 2px;
-    height: 2000px;
+    height: 425vh;
 }
 
 .containMargin {
@@ -28,7 +28,8 @@ h2 {
 }
 
 .aboutMePDiv {
-    height: 200px;
+    border-radius: .4%;
+    height: 17%;
     width: 75%;
     margin: 0 auto;
     position: relative;
@@ -38,12 +39,13 @@ h2 {
 }
 
 .accomplishPDiv {
-    height: 335px;
+    height: 18%;
     width: 60%;
     margin: 0 auto;
     position: relative;
     bottom: 475px;
     padding: 20px;
+    line-height: 173%;
     background-color: rgb(58,58,58);
     border-radius: .4%;
 }
@@ -209,13 +211,4 @@ h2 {
       text-indent: 50px;
   }
 
-  .aboutMePDiv {
-    border-radius: .4%;
-    height: 280px;
-    width: 75%;
-    margin: 0 auto;
-    position: relative;
-    bottom: 600px;
-    padding: 20px;
-    background-color: rgb(58,58,58);
-}
+  
