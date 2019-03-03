@@ -36,6 +36,7 @@ class Contact extends Component {
                                 <p id="contactButtonP" >Follow Me on Linkedin!</p>
                                 <div className="buttonDiv">
                                     <AwesomeButtonSocial
+                                        target="_blank"
                                         size="medium"
                                         type="primary"
                                         ripple="true"
@@ -53,6 +54,7 @@ class Contact extends Component {
                                 <p id="contactButtonP" >Take a copy of my resume!</p>
                                 <div className="buttonDiv" >
                                     <AwesomeButton
+                                        target="_blank"
                                         size="medium"
                                         type="primary"
                                         ripple="true"
@@ -70,6 +72,7 @@ class Contact extends Component {
                                 <p id="contactButtonP" >Checkout my photography on Instagram!</p>
                                 <div id="instagramBtn" className="buttonDiv">
                                     <AwesomeButtonSocial
+                                        target="_blank"
                                         size="medium"
                                         type="primary"
                                         ripple="true"
@@ -86,6 +89,7 @@ class Contact extends Component {
                                 <p id="contactButtonP" >Feel free to email me with any comments or questions!</p>
                                 <div id="emailBtn" className="buttonDiv">
                                     <AwesomeButton
+                                        target="_blank"
                                         size="medium"
                                         type="primary"
                                         ripple="true"

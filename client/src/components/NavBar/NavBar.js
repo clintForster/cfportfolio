@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import profilePic from "../pages/Home/Content/profilePic.PNG";
 import "./NavBar.css";
 
-function NavBar(props) {
+function NavBar() {
 
     // const style = {
     //     opacity: 0
@@ -23,7 +23,9 @@ function NavBar(props) {
                             <div className="profilePicDiv">
                                 <div className="titleModule-border-wrap3">
                                     <div className="titleModule">
+                                    <a href="/">
                                         <img className="titleProfilePic" src={profilePic} alt="profilePic" />
+                                    </a>
                                     </div>
                                 </div>
                             </div>
