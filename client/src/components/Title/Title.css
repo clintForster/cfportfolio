@@ -10,11 +10,11 @@
 
 .wrap {
   z-index: 15;
-  height: 185px;
   width: 100%;
   background-color: black;
   box-shadow: 0 -15px 90px 40px black;
   position: sticky;
+  height: 100%;
 }
 
 .nameFont {

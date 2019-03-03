@@ -1,7 +1,6 @@
 
 li {
     color: white;
-    margin-bottom: 2%;
 }
 
 .nav-a {
@@ -53,9 +52,9 @@ nav {
     z-index: 15;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 200px) {
     .navbar-nav {
-        display: block;
+        display: inline;
 
     }
 }
@@ -68,7 +67,8 @@ nav {
     width: 100%;
     position: relative;
     margin-top: 5.7%;
-    /* top: 96px; */
+    top: 15px;
+    height: 75%;
   }
 
   /* .navbar {
