@@ -12,6 +12,11 @@
   font-size: 3em;
 }
 
+.footDiv {
+  position: relative;
+  top: 500px;
+}
+
 .cRDiv {
   padding-bottom: 40px;
   padding-top: 20px;
@@ -28,7 +33,7 @@
 .portContainer {
     background-color: rgb(37, 37, 37);
     z-index: -10;
-    height: 1500px;
+    height: 1670px;
     /* background-color: white; */
 }
 

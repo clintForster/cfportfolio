@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Title from "../../Title/Title.js";
+import Footer from "../../Footer/Footer.js";
 import { AwesomeButtonSocial } from "react-awesome-button";
 import codeRacerGif from "./codeRacerGif.gif";
 import AwesomeButtonStyles from "react-awesome-button/src/styles/styles.scss";
@@ -55,6 +56,9 @@ class Portfolio extends Component {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="footDiv">
+                    <Footer />
                 </div>
             </div>
         );

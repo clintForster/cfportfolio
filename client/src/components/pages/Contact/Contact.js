@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Title from "../../Title/Title.js";
+import Footer from "../../Footer/Footer.js";
 import {
     AwesomeButton,
     AwesomeButtonSocial,
@@ -96,6 +97,7 @@ class Contact extends Component {
                         </div>
                     </div>
                 </div>
+                <Footer/>
             </div>
         );
     }
