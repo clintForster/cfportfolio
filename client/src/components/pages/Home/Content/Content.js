@@ -39,16 +39,16 @@ function Content(props) {
                             </li>
                             <br></br>
                             <li>
-                                Is Highly experienced with React.js
+                                Highly experienced with React.js
                             </li>
                             <br></br>
                             <li>
-                                Has completed both the Front End Web Development track and Android
+                                Completed both the Front End Web Development track and Android
 Development track at Team Treehouse.
                             </li>
                             <br></br>
                             <li>
-                                Displayed leader ship skills by receiving Most
+                                Displays leader ship skills by receiving Most
 Valuable Player award both Sophomore and Senior year of highschool.
                             </li>
                         </ul>

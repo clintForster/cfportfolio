@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Title from "../../Title/Title.js";
 import Content from "./Content/Content.js";
+import Footer from "../../Footer/Footer.js";
 import "./Home.css";
 
 class Home extends Component {
@@ -27,6 +28,7 @@ class Home extends Component {
                 <Content
                 scrollValue={this.state.currentScrollHeight}
                 />
+                <Footer/>
             </div>
         );
     }

@@ -1,0 +1,48 @@
+.footerInitial {
+    filter: invert(100%);
+    background-color: rgb(197,197,197);
+    height: 30px;
+    position: relative;
+    z-index: 30;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.footModule-Border-Wrap1 {
+    height: 150px;
+    margin-bottom: auto;
+    margin-top: auto;
+    background: linear-gradient(to right, rgb(255, 98, 77), rgb(109, 109, 255));
+    padding-top: 5px;
+    box-shadow: 0 10px 30px -6px black;
+    position: relative;
+    z-index: 40;
+  }
+
+
+
+.footer {
+    text-align: white;
+    background-color: rgb(58,58,58);
+    color: white;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 20;
+}
+
+#fFont {
+    font-family: "Allegratta Personal Use Regular";
+    margin-bottom: 15px;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+}
+
+.footerP {
+    color: white;
+    font-weight: bold;
+    position: relative;
+    z-index: 30;
+    top: 80px;
+    font-size: .9em;
+}
