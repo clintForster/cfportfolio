@@ -6,6 +6,12 @@
     margin: auto 50px;
 }
 
+#contactButtonP {
+  padding-top: 60px;
+  margin: 0 auto;
+  width: 80%;
+}
+
 .pad {
     padding: 0 20px;
     padding-top: 135px;

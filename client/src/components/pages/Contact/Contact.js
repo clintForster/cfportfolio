@@ -33,7 +33,7 @@ class Contact extends Component {
 
                         <div className="col-md module-border-wrap1">
                             <div className="module">
-                                {/* <p>Follow Me on Linkedin!</p> */}
+                                <p id="contactButtonP" >Follow Me on Linkedin!</p>
                                 <div className="buttonDiv">
                                     <AwesomeButtonSocial
                                         size="medium"
@@ -50,7 +50,7 @@ class Contact extends Component {
 
                         <div className="col-md module-border-wrap2">
                             <div className="module">
-                                {/* <p>Take a copy of my résumé!</p> */}
+                                <p id="contactButtonP" >Take a copy of my résumé!</p>
                                 <div className="buttonDiv" >
                                     <AwesomeButton
                                         size="medium"
@@ -67,7 +67,7 @@ class Contact extends Component {
 
                         <div className="col-md module-border-wrap3">
                             <div className="module">
-                                {/* <p>Checkout my photography on Instagram!</p> */}
+                                <p id="contactButtonP" >Checkout my photography on Instagram!</p>
                                 <div className="buttonDiv">
                                     <AwesomeButtonSocial
                                         size="medium"
@@ -83,7 +83,7 @@ class Contact extends Component {
 
                         <div className="col-md module-border-wrap4">
                             <div className="module">
-                                {/* <p>Feel free to email me with any comments and questions!</p> */}
+                                <p id="contactButtonP" >Feel free to email me with any comments or questions!</p>
                                 <div className="buttonDiv">
                                     <AwesomeButton
                                         size="medium"
