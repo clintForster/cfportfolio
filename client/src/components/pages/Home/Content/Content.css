@@ -211,4 +211,88 @@ h2 {
       text-indent: 50px;
   }
 
-  
+  @media (max-width: 1200px) {
+        #NYA {
+            visibility: hidden;
+            }
+
+            #FSD {
+                visibility: hidden;
+            }
+}
+
+@media (max-width: 1529px) {
+    .meP {
+        font-size: 1.5em;
+    }
+}
+@media (max-width: 1454px) {
+    .meP {
+        font-size: 1.3em;
+    }
+}
+@media (max-width: 1236px) {
+    .meP {
+        font-size: 1.2em;
+    }
+}
+@media (max-width: 993px) {
+    .meP {
+        font-size: 1.1em;
+    }
+}
+@media (max-width: 868px) {
+    .meP {
+        font-size: 1em;
+    }
+}
+@media (max-width: 783px) {
+    .meP {
+        font-size: .9em;
+    }
+}
+
+/*--------------------------------------------------------*/
+
+@media (max-width: 1126px) {
+    #responsive {
+        font-size: 1.1em;
+    }
+}
+@media (max-width: 1058px) {
+    #responsive {
+        font-size: 1em;
+    }
+}
+@media (max-width: 991px) {
+    #responsive {
+        font-size: .9em;
+    }
+}
+@media (max-width: 928px) {
+    #responsive {
+        font-size: .8em;
+    }
+}
+@media (max-width: 869px) {
+    #responsive {
+        font-size: .7em;
+    }
+}
+@media (max-width: 811px) {
+    #responsive {
+        font-size: .6em;
+    }
+}
+
+@media (max-width: 647px) {
+    .aboutMePDiv {
+        height: 19%;
+    }
+    .accomplishPDiv {
+        height: 23%;
+    }
+  }
+
+
+

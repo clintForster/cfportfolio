@@ -33,7 +33,7 @@ function Content(props) {
             <div className="accomplishPDiv">
                 <div className="meModule-border-wrap2">
                     <div className="meModule">
-                        <ul className="meP">
+                        <ul id="responsive" className="meP">
                             <li>
                                 Graduated from UCLA Extension Full Stack Program.
                             </li>

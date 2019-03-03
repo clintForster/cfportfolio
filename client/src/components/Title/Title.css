@@ -71,7 +71,7 @@ a:hover {
   position: relative;
   transition: opacity 0.35s ease-in-out;
   margin: 0 50px;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 .hide {
@@ -87,3 +87,51 @@ a:hover {
   margin: 0 auto;
   width: 25%;
 }
+
+@media (max-width: 769px) {
+  .profilePicDiv {
+      margin-top: -17%;
+      top: 7em;
+  }
+  .nameFont {
+    font-size: 2em;
+}
+}
+
+@media (max-width: 884px) {
+  .titleModule-border-wrap3 {
+      width: 45%;
+  }
+}
+
+@media (max-width: 769px) {
+  .titleModule-border-wrap3 {
+      width: 27%;
+      top: 80px;
+  }
+
+  .navbarModule-border-wrap3 {
+    top: 70px;
+}
+}
+
+/* @media (min-width: 769px) {
+  .titleModule-border-wrap3 {
+    width: 27%;
+    top: 80px;
+}
+} */
+
+@media (max-width: 740px) {
+  .titleModule-border-wrap3 {
+    width: 30%;
+}
+}
+@media (max-width: 691px) {
+  .titleModule-border-wrap3 {
+    width: 50%;
+}
+}
+
+
+
