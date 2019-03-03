@@ -89,7 +89,6 @@ class Contact extends Component {
                                 <p id="contactButtonP" >Feel free to email me with any comments or questions!</p>
                                 <div id="emailBtn" className="buttonDiv">
                                     <AwesomeButton
-                                        target="_blank"
                                         size="medium"
                                         type="primary"
                                         ripple="true"
