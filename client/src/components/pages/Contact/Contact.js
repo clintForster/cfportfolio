@@ -89,6 +89,7 @@ class Contact extends Component {
                                         size="medium"
                                         type="primary"
                                         ripple="true"
+                                        href="mailto:clinte.forster@gmail.com"
                                         cssModule={AwesomeButtonStyles}
                                     >E-mail</AwesomeButton>
                                 </div>
