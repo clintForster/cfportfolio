@@ -1,0 +1,88 @@
+.fixed {
+  position: fixed;
+  top: -85px;
+  width: 100%;
+}
+
+.unFixed {
+  visibility: hidden;
+}
+
+.wrap {
+  z-index: 15;
+  height: 185px;
+  width: 100%;
+  background-color: black;
+  box-shadow: 0 -15px 90px 40px black;
+  position: sticky;
+}
+
+.nameFont {
+    opacity: 0;
+    font-family: "Allegratta Personal Use Regular";
+    font-size: 4em;
+    color: white;
+    margin: 0 auto;
+    padding-top: 20px;
+    position: relative;
+    text-decoration: none;
+}
+
+.onLoad {
+  opacity: 1;
+  transition: all 0.7s ease;
+}
+
+.nameFont:hover {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.7s ease;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.titleShadow {
+  height: 125px;
+  width: 100%;
+  box-shadow: inset 0px 125px 90px -75px black;
+  position: relative;
+  top: -9px;
+  z-index: 10;
+}
+
+.titleModule {
+  height: 100%;
+  text-align: center;
+  border-radius: 2%;
+}
+
+.titleProfilePic {
+  width: 100%;
+  border-radius: 2%;
+}
+
+.profilePicDiv {
+  z-index: 10;
+  position: relative;
+  transition: opacity 0.35s ease-in-out;
+  margin: 0 50px;
+}
+
+.hide {
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.titleModule-border-wrap3 {
+  background: linear-gradient(to top right , rgb(109, 109, 255), rgb(255, 98, 77));
+  padding: 6px;
+  border-radius: 2%;
+  box-shadow: 0 10px 30px -6px black;
+  margin: 0 auto;
+  width: 25%;
+}

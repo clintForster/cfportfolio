@@ -1,0 +1,220 @@
+@font-face {
+    font-family: "Allegratta Personal Use Regular";
+    src: url("./Allegratta_Personal_Use.ttf");
+}
+
+.contain {
+    width: 100%;
+    perspective: 2px;
+}
+
+.containMargin {
+    margin: 157px 0px 0px 0px;
+}
+
+h2 {
+    position: relative;
+    bottom: 675px;
+    font-size: 4em;
+    font-family: "Allegratta Personal Use Regular";
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.accomplish {
+    bottom: 550px;
+}
+
+.aboutMePDiv {
+    height: 200px;
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 600px;
+    padding: 20px;
+    background-color: rgb(58,58,58);
+}
+
+.accomplishPDiv {
+    height: 335px;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 475px;
+    padding: 20px;
+    background-color: rgb(58,58,58);
+    border-radius: .4%;
+}
+
+.contentDiv {
+    height: 10%;
+    width: 25%;
+    font-family: "Allegratta Personal Use Regular";
+    font-size: 7em;
+    color: white;
+    margin-left: 13%;
+    padding: 10% 3% 0 0;
+
+}
+
+/* .parallax::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateZ(-1px) scale(1.5);
+    background-size: 100%;
+    z-index: -1;
+} */
+
+/* .bg1::after {
+    background-image: url("./image1.jpg");
+} */
+
+.imageDiv {
+    position: relative;
+    margin-top: 1px;
+    width: 100%;
+    z-index: -1;
+}
+
+.lowerGradient {
+    height: 400px;
+    width: 100%;
+    box-shadow: inset 0px -360px 300px -50px black;
+    position: relative;
+    bottom: 500px;
+    z-index: 30;
+}
+
+.image {
+    width: 100%;
+    z-index: 10;
+    background-color: white;
+    position: relative;
+    bottom: 185px;
+}
+
+#NYA {
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.7s ease-in-out;
+    transform: translate(0px, 25px);
+}
+
+#FSD {
+    opacity: 1;
+    visibility: visible;
+    transition: all 1.4s ease-in-out;
+    transform: translate(0px, 25px);
+}
+
+#noNYA {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1.4s ease-in-out;
+}
+
+#noFSD {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.7s ease-in-out;
+}
+
+.pTag {
+    visibility: hidden;
+    opacity: 0;
+    height: 100%;
+    color: black;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 7rem;
+    position: relative;
+    z-index: 30;
+}
+
+.imageP {
+    font-family: "Allegratta Personal Use Regular";
+    font-size: 5em;
+    color: white;
+    width: 50%;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+    bottom: 757px
+}
+
+.meModule {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(58,58,58);
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+    
+.meModule-border-wrap1 {
+    padding: 1rem;
+    margin-bottom: auto;
+    margin-top: auto;
+    background: linear-gradient(to bottom right, rgb(109, 109, 255), rgb(253, 255, 106));
+    padding: 5px;
+    border-radius: 1%;
+    box-shadow: 0 10px 30px -6px black;
+  }
+
+.meModule-border-wrap2 {
+    padding: 1rem;
+    margin-bottom: auto;
+    margin-top: auto;
+    background: linear-gradient(to top left, rgb(255, 104, 247), rgb(253, 255, 106));
+    padding: 5px;
+    border-radius: .3%;
+    width: 100%;
+    height: 100%;
+  }
+
+.meModule-border-wrap3 {
+    padding: 1rem;
+    margin-bottom: auto;
+    margin-top: auto;
+    background: linear-gradient(to top right , rgb(109, 109, 255), rgb(255, 98, 77));
+    padding: 5px;
+    border-radius: 1%;
+    box-shadow: 0 10px 30px -6px black;
+  }
+
+.meModule-border-wrap4 {
+    padding: 1rem;
+    margin-bottom: auto;
+    margin-top: auto;
+    background: linear-gradient(to bottom left, rgb(255, 104, 247), rgb(80, 255, 132));
+    padding: 5px;
+    border-radius: .3%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .meP {
+      margin: 0;
+      color: white;
+      padding: 25px 65px;
+      font-size: 1.6em;
+      list-style-type: square;
+      text-align: left;
+      text-indent: 50px;
+  }
+
+  .aboutMePDiv {
+    border-radius: .4%;
+    height: 280px;
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 600px;
+    padding: 20px;
+    background-color: rgb(58,58,58);
+}

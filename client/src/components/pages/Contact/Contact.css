@@ -1,0 +1,90 @@
+.col-md {
+    height: 300px;
+    background-color: white;
+    padding: 40px;
+    width: 15%;
+    margin: auto 50px;
+}
+
+.pad {
+    padding: 0 20px;
+    padding-top: 135px;
+    height: 700px;
+}
+
+.holder {
+  background-color: rgb(37,37,37);
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.margin {
+    margin-top: 157px;
+}
+
+.module-border-wrap1 {
+    padding: 1rem;
+    margin-bottom: auto;
+    margin-top: auto;
+    background: linear-gradient(to bottom right, rgb(109, 109, 255), rgb(253, 255, 106));
+    padding: 5px;
+    border-radius: 1%;
+    box-shadow: 0 10px 30px -6px black;
+  }
+
+  .module-border-wrap2 {
+    padding: 1rem;
+    margin-bottom: auto;
+    margin-top: auto;
+    background: linear-gradient(to top left, rgb(255, 98, 77),rgb(80, 255, 132));
+    padding: 5px;
+    border-radius: 1%;
+    box-shadow: 0 10px 30px -6px black;
+  }
+
+  .module-border-wrap3 {
+    padding: 1rem;
+    margin-bottom: auto;
+    margin-top: auto;
+    background: linear-gradient(to top right , rgb(109, 109, 255), rgb(255, 98, 77));
+    padding: 5px;
+    border-radius: 1%;
+    box-shadow: 0 10px 30px -6px black;
+  }
+
+  .module-border-wrap4 {
+    padding: 1rem;
+    margin-bottom: auto;
+    margin-top: auto;
+    background: linear-gradient(to bottom left, rgb(255, 104, 247), rgb(80, 255, 132));
+    padding: 5px;
+    border-radius: 1%;
+    box-shadow: 0 10px 30px -6px black;
+  }
+
+  .rowDiv {
+    background-color: rgb(58, 58, 58);
+    border-radius: 1%;
+    box-shadow: 0 20px 30px -6px black;
+  }
+
+  .buttonDiv {
+    position: relative;
+    top: 235px;
+    transition: all 0.7 ease-in-out;
+  }
+
+  .aws-btn:hover {
+    opacity: 0.5;
+  }
+  
+  .module {
+    height: 100%;
+    background: rgb(58, 58, 58);
+    color: white;
+    text-align: center;
+    border-radius: 1%;
+  }

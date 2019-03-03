@@ -1,0 +1,123 @@
+
+.row {
+    height: 400px;
+    margin: 0px;
+    text-align: center;
+    z-index: 0;
+}
+
+.cRTitle {
+  font-family: 'ZCOOL KuaiLe', cursive;
+  color: white;
+  font-size: 3em;
+}
+
+.cRDiv {
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.topRow {
+    margin-top: 35px;
+}
+
+.portMargin {
+    margin-top: 157px;
+}
+
+.portContainer {
+    background-color: rgb(37, 37, 37);
+    z-index: -10;
+    height: 1500px;
+    /* background-color: white; */
+}
+
+#buttonP {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.portButton {
+    position: relative;
+    top: 40px;
+}
+
+.portButtonDiv {
+    background-color: white;
+    width: 20%;
+    height: 250px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    background-color: rgb(58, 58, 58);
+    border-radius: 1%;
+    box-shadow: 0 20px 30px -6px black;
+}
+
+.gifDiv {
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgb(58, 58, 58);
+    height: 800px;
+    border-radius: .3%;
+    padding: 20px;
+    box-shadow: 0 20px 30px -6px black;
+    text-align: center;
+}
+
+.portModule {
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    border-radius: 1%;
+    background-color: rgb(58, 58, 58);
+  }
+
+  .portGifModule {
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    border-radius: 1%;
+    background-color: rgb(58, 58, 58);
+  }
+
+.gif {
+    height: 100%;
+    width: 100%;
+    border-radius: 1%;
+}
+
+  .portModule-border-wrap1 {
+    height: 100%;
+    padding-top: 1rem;
+    background: linear-gradient(to bottom right, rgb(109, 109, 255), rgb(253, 255, 106));
+    padding: 5px;
+    border-radius: 1%;
+  }
+
+  .portModule-border-wrap2 {
+    height: 85%;
+    padding: 1rem;
+    background: linear-gradient(to bottom left, rgb(255, 98, 77),rgb(80, 255, 132));
+    padding: 5px;
+    border-radius: .4%;
+  }
+
+  .portModule-border-wrap3 {
+    padding: 1rem;
+    background: linear-gradient(to top right , rgb(109, 109, 255), rgb(255, 98, 77));
+    padding: 5px;
+    border-radius: 1%;
+  }
+
+  .portModule-border-wrap4 {
+    padding: 1rem;
+    background: linear-gradient(to bottom left, rgb(255, 104, 247), rgb(80, 255, 132));
+    padding: 5px;
+    border-radius: 1%;
+  }
