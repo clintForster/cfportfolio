@@ -71,7 +71,7 @@ a:hover {
   position: relative;
   transition: opacity 0.35s ease-in-out;
   margin: 0 50px;
-  margin-top: 5%;
+  margin-top: 6%;
 }
 
 .hide {
@@ -133,5 +133,12 @@ a:hover {
 }
 }
 
+/* ------------------------------------------------------------- */
+
+@media (max-width: 1333px) {
+    .nameFont {
+      font-size: 3em;
+  }
+}
 
 

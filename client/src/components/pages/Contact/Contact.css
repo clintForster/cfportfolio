@@ -7,11 +7,11 @@
 }
 
 #instagramBtn {
-  top: 125px;
+  margin-top: 60%;
 }
 
 #emailBtn {
-  top: 108px;
+  margin-top: 45%;
 }
 
 #contactButtonP {
@@ -87,13 +87,15 @@
 
   .buttonDiv {
     position: relative;
-    top: 140px;
+    margin-top: 75%;
     transition: all 0.7 ease-in-out;
   }
 
   .aws-btn:hover {
     opacity: 0.5;
   }
+
+
   
   .module {
     height: 100%;

@@ -9,7 +9,8 @@ import "./Portfolio.css";
 class Portfolio extends Component {
 
     state = {
-        currentScrollHeight: 0
+        currentScrollHeight: 0,
+        pageHeight: "12%"
     }
 
     componentDidMount() {
@@ -25,6 +26,7 @@ class Portfolio extends Component {
             <div className={this.state.currentScrollHeight > 80 ? ("portContainer") : ("portContainer")}>
                 <Title
                     scrollValue={this.state.currentScrollHeight}
+                    pageHeight={this.state.pageHeight}
                 />
                 <div className="row topRow">
                     <div className="portButtonDiv">
