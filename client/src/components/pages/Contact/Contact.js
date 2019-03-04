@@ -33,14 +33,14 @@ class Contact extends Component {
 
                         <div className="col-md module-border-wrap1">
                             <div className="module">
-                                <p id="contactButtonP" >Follow Me on Linkedin</p>
+                                <p id="contactButtonP" >Follow me on Linkedin</p>
                                 <div className="buttonDiv">
                                     <AwesomeButtonSocial
                                         target="_blank"
                                         size="medium"
                                         type="primary"
                                         ripple="true"
-                                        cssModule={AwesomeButtonStyles}
+                                        // cssModule={AwesomeButtonStyles}
                                         type="linkedin"
                                         href="https://www.linkedin.com/in/clint-forster"
                                     >Linkedin</AwesomeButtonSocial>
@@ -59,7 +59,7 @@ class Contact extends Component {
                                         type="primary"
                                         ripple="true"
                                         href="https://drive.google.com/file/d/0B43RAQg8JkEFOE4teWx6WF9vM3ZjLXAzcks5LUJobGFpYklj/view?usp=sharing"
-                                        cssModule={AwesomeButtonStyles}
+                                        // cssModule={AwesomeButtonStyles}
                                     >Resume</AwesomeButton>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@ class Contact extends Component {
                                         size="medium"
                                         type="primary"
                                         ripple="true"
-                                        cssModule={AwesomeButtonStyles}
+                                        // cssModule={AwesomeButtonStyles}
                                         type="instagram"
                                         href="https://www.instagram.com/clintforster/"
                                     >Instagram</AwesomeButtonSocial>
@@ -93,7 +93,7 @@ class Contact extends Component {
                                         type="primary"
                                         ripple="true"
                                         href="mailto:clinte.forster@gmail.com"
-                                        cssModule={AwesomeButtonStyles}
+                                        // cssModule={AwesomeButtonStyles}
                                     >E-mail</AwesomeButton>
                                 </div>
                             </div>

@@ -39,7 +39,7 @@ class Portfolio extends Component {
                                     <AwesomeButtonSocial
                                         target="_blank"
                                         type="github"
-                                        cssModule={AwesomeButtonStyles}
+                                        // cssModule={AwesomeButtonStyles}
                                         ripple="true"
                                         href="https://github.com/c811k/code-racer"
                                     >Github</AwesomeButtonSocial>
@@ -47,7 +47,7 @@ class Portfolio extends Component {
                                         className="CRButton"
                                         type="primary"
                                         href="https://coderacer-app.herokuapp.com/"
-                                        cssModule={AwesomeButtonStyles}
+                                        // cssModule={AwesomeButtonStyles}
                                     >
                                         Code Racer
                                     </AwesomeButton>
