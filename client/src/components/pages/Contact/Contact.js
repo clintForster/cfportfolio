@@ -33,7 +33,7 @@ class Contact extends Component {
 
                         <div className="col-md module-border-wrap1">
                             <div className="module">
-                                <p id="contactButtonP" >Follow Me on Linkedin!</p>
+                                <p id="contactButtonP" >Follow Me on Linkedin</p>
                                 <div className="buttonDiv">
                                     <AwesomeButtonSocial
                                         target="_blank"
@@ -51,7 +51,7 @@ class Contact extends Component {
 
                         <div className="col-md module-border-wrap2">
                             <div className="module">
-                                <p id="contactButtonP" >Take a copy of my resume!</p>
+                                <p id="contactButtonP" >Take a copy of my resume</p>
                                 <div className="buttonDiv" >
                                     <AwesomeButton
                                         target="_blank"
@@ -69,7 +69,7 @@ class Contact extends Component {
 
                         <div className="col-md module-border-wrap3">
                             <div className="module">
-                                <p id="contactButtonP" >Checkout my photography on Instagram!</p>
+                                <p id="contactButtonP" >Checkout my photography on Instagram</p>
                                 <div id="instagramBtn" className="buttonDiv">
                                     <AwesomeButtonSocial
                                         target="_blank"
@@ -86,7 +86,7 @@ class Contact extends Component {
 
                         <div className="col-md module-border-wrap4">
                             <div className="module">
-                                <p id="contactButtonP" >Feel free to email me with any comments or questions!</p>
+                                <p id="contactButtonP" >Feel free to email me with any comments or questions</p>
                                 <div id="emailBtn" className="buttonDiv">
                                     <AwesomeButton
                                         size="medium"

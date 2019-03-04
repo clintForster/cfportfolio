@@ -48,7 +48,7 @@ Development track at Team Treehouse.
                             </li>
                             <br></br>
                             <li>
-                                Displays leader ship skills by receiving Most
+                                Displays leadership skills by receiving Most
 Valuable Player award both Sophomore and Senior year of highschool.
                             </li>
                         </ul>
