@@ -38,6 +38,10 @@
     /* background-color: white; */
 }
 
+.CRButton {
+    margin-left: 25px;
+}
+
 #buttonP {
     width: 80%;
     margin: 0 auto;

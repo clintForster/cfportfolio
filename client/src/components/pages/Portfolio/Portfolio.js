@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Title from "../../Title/Title.js";
 import Footer from "../../Footer/Footer.js";
-import { AwesomeButtonSocial } from "react-awesome-button";
+import { AwesomeButtonSocial, AwesomeButton } from "react-awesome-button";
 import codeRacerGif from "./codeRacerGif.gif";
 import AwesomeButtonStyles from "react-awesome-button/src/styles/styles.scss";
 import "./Portfolio.css";
@@ -43,6 +43,14 @@ class Portfolio extends Component {
                                         ripple="true"
                                         href="https://github.com/c811k/code-racer"
                                     >Github</AwesomeButtonSocial>
+                                    <AwesomeButton
+                                        className="CRButton"
+                                        type="primary"
+                                        href="https://coderacer-app.herokuapp.com/"
+                                        cssModule={AwesomeButtonStyles}
+                                    >
+                                        Code Racer
+                                    </AwesomeButton>
                                 </div>
                             </div>
                         </div>
