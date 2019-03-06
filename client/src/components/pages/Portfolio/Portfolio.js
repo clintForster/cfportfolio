@@ -33,7 +33,7 @@ class Portfolio extends Component {
                         <div className="portModule-border-wrap1">
                             <div className="portModule">
                                 <p id="buttonP">
-                                    Visit our Github repository to see how me and my team created CodeRacer.
+                                    Visit our Github repository to see how me and my team created Code Racer.
                         </p>
                                 <div className="portButton">
                                     <AwesomeButtonSocial
